@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+h1{
+    text-align: center;
+    margin: 20% auto;
+    font-size: 140px;
+}
