@@ -5,19 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    
 </head>
 <body>
-
+    
     <div id="app">
 
-        <h1>{{ message }}</h1>
+        <!-- chiedo il nome e lo salvo -->
+        <div class="input-container">
+            <span class="nome-span">Tuo nome:</span><input v-model="nome" type="text">
+            <button id="salutami" @click="salutami">Salutami</button>    
+        </div>
+        
+        <!-- inserisco immagine di Deleuze-->
+        <div class="img-container">
+            <img :src="immagine" alt="mille piani">
+        </div>
+          
+        
+        <!-- stampo il nome in un h1 -->
+        <div class="output-container">
+          <h1 id="nomeOutput">{{nome}}</h1>
+        </div>
         
     </div>
-
-    <script src="js/script.js"></script>
     
+    <script src="js/script.js"></script>
+
 </body>
 </html>

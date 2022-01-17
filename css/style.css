@@ -1,13 +1,63 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0 auto;
+    padding: 5px;
     box-sizing: border-box;
 }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img-container{
+    margin: 0 auto;
+}
 body{
-    background-color: teal;
+    background-color: firebrick;
+}
+.input-container,.img-container{
+    text-align: center;
+    padding: 10px;
+}
+input{
+  border-radius: 5px;
+}
+.nome-span{
+    color:white;
+    font-size: 22px;
 }
 h1{
+    color:white;
+    margin: 0 auto;
     text-align: center;
-    margin: 20% auto;
-    font-size: 140px;
+}
+.default{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+}
+.pink{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+}
+.green{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+}
+.black{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
 }
